@@ -1,2 +1,2 @@
 # Quantopian-Community
-A place for the Quantopian community to share code
+An unofficial place for the Quantopian community to share code
