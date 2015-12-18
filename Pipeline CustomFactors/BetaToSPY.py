@@ -4,7 +4,7 @@ import numpy as np
 def _beta(ts, benchmark, benchmark_var):
     return np.cov(ts, benchmark)[0, 1] / benchmark_var
 
-class Beta(CustomFactor):
+class BetaToSpy(CustomFactor):
     # James Christopher
     # https://www.quantopian.com/posts/pipeline-calculating-beta
     #
