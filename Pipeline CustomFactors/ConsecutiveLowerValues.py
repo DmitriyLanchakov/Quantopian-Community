@@ -1,7 +1,7 @@
 class ConsecutiveLowerValues(CustomFactor):
     # Tristan Rhodes
     #
-    # ConsecutiveLowerValues will return the number of periods that the value has consecutively decreased, leading up to the current period.
+    # ConsecutiveLowerValues will return the number of periods that the input has consecutively decreased, leading up to the current period.
     # This can by used for price inputs (low, high, close, open) or volume.  (Fundamentals don't usually change on a daily basis, right?)
     #
     # Set the default list of inputs as well as the default window_length.

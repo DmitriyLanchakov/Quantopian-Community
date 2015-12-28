@@ -2,7 +2,7 @@ class ConsecutiveHigherValues(CustomFactor):
     # Tristan Rhodes
     # https://www.quantopian.com/posts/my-first-pipeline-how-to-find-stocks-with-consecutive-higher-lows-low-4-low-3-low-2-low-1
     #
-    # ConsecutiveHigherValues will return the number of periods that the value has consecutively increased, leading up to the current period.
+    # ConsecutiveHigherValues will return the number of periods that the input has consecutively increased, leading up to the current period.
     # This can by used for price inputs (low, high, close, open) or volume.  (Fundamentals don't usually change on a daily basis, right?)
     #
     # Set the default list of inputs as well as the default window_length.
@@ -18,4 +18,4 @@ class ConsecutiveHigherValues(CustomFactor):
                     consecutive = abs(i)
                 else:
                     break
-            out[a] = consecutive  
+            out[a] = consecutive
